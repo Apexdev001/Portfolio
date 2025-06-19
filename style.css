@@ -1,5 +1,4 @@
 :root {
-  /* Light Theme Colors */
   --primary-color: #1e88e5;
   --secondary-color: #ff9800;
   --text-primary: #1a202c;
@@ -33,7 +32,6 @@
   --font-weight-extrabold: 800;
 }
 
-/* Dark Theme Colors */
 [data-theme="dark"] {
   --text-primary: #f7fafc;
   --text-secondary: #e2e8f0;
@@ -71,7 +69,6 @@ body.loaded {
   overflow-x: visible;
 }
 
-/* Loading Screen */
 .loader {
   position: fixed;
   top: 0;
@@ -153,7 +150,6 @@ body.loaded {
   }
 }
 
-/* Main Content */
 #main-content {
   opacity: 0;
   transform: translateY(20px);
@@ -215,7 +211,6 @@ body.loaded {
   font-weight: var(--font-weight-medium);
 }
 
-/* Header */
 header {
   position: fixed;
   top: 0;
@@ -366,7 +361,6 @@ nav a.active::after {
   border-radius: 1px;
 }
 
-/* Hero Section */
 .hero-section {
   min-height: 100vh;
   display: flex;
@@ -633,7 +627,6 @@ nav a.active::after {
   }
 }
 
-/* About Section */
 .about-section {
   background-color: var(--background-alt);
 }
@@ -706,7 +699,6 @@ nav a.active::after {
   letter-spacing: 0.5px;
 }
 
-/* Mobile responsive adjustments */
 @media (max-width: 768px) {
   .experience-stats {
     margin: 32px auto;
@@ -825,7 +817,6 @@ nav a.active::after {
   }
 }
 
-/* Services Section */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -949,7 +940,6 @@ nav a.active::after {
   font-weight: var(--font-weight-medium);
 }
 
-/* Contact Section */
 .contact-section {
   background-color: var(--background-alt);
 }
@@ -1133,7 +1123,6 @@ nav a.active::after {
   line-height: 1.6;
 }
 
-/* Footer */
 footer {
   background-color: var(--background);
   padding: 60px 0 40px;
@@ -1377,6 +1366,6 @@ footer {
 
   .theme-toggle {
     width: 40px;
-    height: 40px;
+    height: 40psx;
   }
 }
